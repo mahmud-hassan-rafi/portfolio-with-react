@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const NavbarLogo = () => {
   return (
-    <div className="flex items-center justify-start gap-x-2 w-2/3 sm:w-1/3">
+    <div className="flex items-center justify-start gap-x-2 w-2/3 md:w-1/3">
       {/* menu icon */}
-      <div className="sm:hidden">
+      <div className="md:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -25,7 +25,7 @@ const NavbarLogo = () => {
       </div>
 
       <Link to={"/"}>
-        <h1 className=" text-[22px] sm:text-left sm:text-2xl md:text-3xl font-bold sm:flex">
+        <h1 className=" text-2xl sm:text-left sm:text-2xl md:text-2xl font-semibold sm:flex">
           Mahmud Hassan
         </h1>
       </Link>

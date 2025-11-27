@@ -14,7 +14,7 @@ const AboutMe = () => {
 
       {/* Text Section */}
       <div className="w-1/2 h-full flex flex-col justify-center items-start lg:ml-10 xl:ml-0 ">
-        <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold">
+        <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold">
           Mahmud Hassan
         </h1>
 
