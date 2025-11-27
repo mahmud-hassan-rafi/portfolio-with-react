@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import MainLayout from "@components/layout/MainLayout";
-import AboutLayout from "@components/layout/AboutLayout";
 import AboutMe from "@pages/aboutMe/AboutMe";
 import Contact from "@pages/contact/Contact";
 import Home from "@pages/home/Home";
@@ -11,10 +10,9 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         {/* ========== route - 1 ========= */}
-        <Route path="/" element={<AboutLayout />}>
-          <Route index={true} element={<Home />} />
-          <Route path="about-me" element={<AboutMe />} />
-        </Route>
+
+        <Route index={true} element={<Home />} />
+        <Route path="about-me" element={<AboutMe />} />
         {/* ========== route - 2 ========= */}
         <Route path="contact" element={<Contact />} />
       </Route>

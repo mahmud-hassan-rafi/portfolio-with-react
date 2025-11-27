@@ -1,4 +1,4 @@
-import Navbar from "@components/common/Navbar";
+import Navbar from "@components/common/navbar/Navbar";
 import React from "react";
 import { Outlet } from "react-router-dom";
 
@@ -6,7 +6,9 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="container mx-12">
+        <Outlet />
+      </div>
     </>
   );
 };

@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+* {
+  font-family: "Poppins";
+}
+
+:root {
+  --deepGreen: #0d9488;
+  --navColor: #e5e6e6;
+}
