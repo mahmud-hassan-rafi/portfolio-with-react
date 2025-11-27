@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#e5e6e6] h-16 sm:h-17 md:h-18 lg:h-19 flex items-center w-full">
       <div className="flex justify-between items-center mx-5 w-full">
-        <div className="flex items-center justify-between gap-x-2 w-2/3 sm:w-1/3">
+        <div className="flex items-center justify-start gap-x-2 w-2/3 sm:w-1/3">
           {/* menu icon */}
           <div className="sm:hidden">
             <svg
@@ -29,7 +29,7 @@ const Navbar = () => {
             </svg>
           </div>
 
-          <h1 className="text-center text-[26px] sm:text-left sm:text-2xl md:text-3xl font-bold sm:flex">
+          <h1 className=" text-[22px] sm:text-left sm:text-2xl md:text-3xl font-bold sm:flex">
             Mahmud Hassan
           </h1>
         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="sm:w-1/5 md:w-1/4 flex items-center sm:justify-end">
           <button
             type="submit"
-            className="text-[#0D9488] flex items-center gap-x-2 p-2 sm:p-2.5 md:px-3 cursor-pointer hover:bg-gray-300 transition duration-200 ease-in-out rounded-md font-bold border border-gray-300"
+            className="text-[#0D9488] text-sm md:text-base flex items-center gap-x-2 p-2 sm:p-2.5 md:px-3 cursor-pointer hover:bg-gray-300 transition duration-200 ease-in-out rounded-md font-bold border border-gray-300"
           >
             <FaBriefcase /> Hire Now
           </button>
