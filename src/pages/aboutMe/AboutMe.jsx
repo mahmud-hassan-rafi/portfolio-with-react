@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="flex justify-between h-[calc(100vh-80px)] overflow-hidden">
+    <div className="flex justify-between h-[calc(100vh-80px)] overflow-hidden relative">
       {/* Image Section */}
-      <div className="w-1/2 flex justify-center items-center overflow-hidden">
+      <div className="w-1/2 flex justify-center items-center overflow-hidden absolute left-0 top-5">
         <img
           src="/src/assets/userImage.PNG"
           alt="profile"
@@ -18,7 +18,7 @@ const AboutMe = () => {
           Mahmud Hassan
         </h1>
 
-        <h2 className="text-3xl font-medium">
+        <h2 className="text-xl font-medium md:text-2xl lg:text-3xl">
           <span className="text-(--deepGreen)">MERN</span> Stack Developer
         </h2>
 
